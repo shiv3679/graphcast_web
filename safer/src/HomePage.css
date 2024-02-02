@@ -1,0 +1,72 @@
+/* src/HomePage.css */
+
+.home-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .home-title {
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .sidebar {
+    margin-right: 20px; /* Space between sidebar and main content */
+  }
+  
+  #variable-select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .main-content {
+    flex-grow: 2; /* Main content takes more space */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .main-content img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Keep aspect ratio */
+  }
+
+  .home-title {
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed */
+    text-shadow: 1px 1px 2px #bbb; /* Optional: Adds a shadow to the text for emphasis */
+  }
+  
+  .safer-acronym {
+    font-family: 'Arial', sans-serif; /* Adjust the font as needed */
+    color: #007bff; /* Adjust the color as needed */
+  }
+  
+  .bold-letter {
+    font-weight: bold;
+  }
+  
+  .main-content {
+    flex-grow: 2; /* Main content takes more space */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+    max-height: 90vh; /* Maximum height to ensure it doesn't go out of viewport */
+    overflow: auto; /* Add scroll if content overflows */
+  }
+  
+  .main-content img {
+    max-width: 80%; /* Make image's max width 100% of its container */
+    max-height: 80vh; /* Make image's max height 80% of the viewport height */
+    height: auto; /* Keep aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image in the container */
+  }
